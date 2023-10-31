@@ -1,11 +1,8 @@
-import random
-ver = random.randint(0,100)
-print(ver)
-if ver % 3 == 0:
-    print("Fizz")
-elif ver % 5 == 0:
-    print("Buzz")
-elif ver % 15 == 0:
+if var % 3 == 0 and var % 5 == 0:
     print("FizzBuzz")
-else:
-    print(ver)
+elif var % 3 == 0:   
+    print("Fizz")
+elif var % 5 == 0:
+    print("Buzz")
+else:   
+    print(var)
