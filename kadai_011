@@ -1,0 +1,9 @@
+list = ["水", "金", "地", "火", "木", "土", "天", "海", "冥"]
+index = 0
+while index < len(list)*2:
+    print(list[index % len(list)]) 
+    index +=1
+
+list = ["水", "金", "地", "火", "木", "土", "天", "海", "冥"]
+for index in range(len(list)*2):
+    print(list[index % len(list)])
