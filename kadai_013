@@ -1,6 +1,7 @@
-def calculate_total_price(product_price, tax_rate=0.1):
+def calculate_total_price(product_price, tax_rate):
     total_price = product_price + (product_price * tax_rate)
     return total_price
 product_price = 1000
-total_price = calculate_total_price(product_price)
+tax_rate = 0.1
+total_price = calculate_total_price(product_price, tax_rate)
 print(f"{total_price}円" )
