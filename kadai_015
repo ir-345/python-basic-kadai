@@ -6,3 +6,10 @@ class Human:
     def printinfo(self):
         print(f"名前: {self.name}")
         print(f"年齢: {self.age}")
+
+if __name__ == "__main__":
+    # 例として、名前が"John"で年齢が25のHumanインスタンスを作成
+    john = Human(name="John", age=25)
+
+    # 情報を出力
+    john.printinfo()
